@@ -25,8 +25,6 @@ public class Main {
 		list3.add(new DummyObject());
 		list3.show();
 		
-		
-
 	}
 
 }

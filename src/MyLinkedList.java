@@ -61,7 +61,5 @@ public class MyLinkedList<T> {
 			Node rest = node.getNext().getNext();
 			node.setNext(rest);
 		}
-		
-		
 	}
 }

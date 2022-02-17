@@ -1,9 +1,9 @@
 
-public class MyLinkedList {
+public class MyLinkedList<T> {
 
 	private Node head;
 
-	public void add(int value) {
+	public void add(T value) {
 		if (head == null) {
 			head = new Node(value);
 		} else {
